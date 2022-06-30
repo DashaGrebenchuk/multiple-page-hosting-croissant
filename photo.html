@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best croissant you'll ever see</title>
+    <meta
+      name="description"
+      content="All you wanted to know about the croissant - Croissant.com"
+    />
+    <title>Croissant Photo Gallery - Croissant.com</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,16 +18,38 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <h1>📸 Photo of croissant</h1>
-    <img
-      src="/images/croissant01.jpg"
-      alt="croissant-photo"
-      class="main-photo rounded"
-    />
+    <h1>📸 Photo Gallery of croissants</h1>
+
+    <div class="container mt-4 mb-4">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="/images/croissant01.jpg"
+            alt="two-croissants-photo"
+            class="main-photo rounded img-fluid shadow"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="/images/croissant02.jpg"
+            alt="croissant-photo"
+            class="main-photo rounded img-fluid shadow"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="/images/croissant03.jpg"
+            alt="deck-croissants-photo"
+            class="main-photo rounded img-fluid shadow"
+          />
+        </div>
+      </div>
+    </div>
+
     <footer>
-      <a href="/">Homepage</a>
-      <a href="/photo.html">Photo</a>
-      <a href="/contact.html">Contact</a>
+      <a href="/" title="Go to Homepage">Homepage</a>
+      <a href="/photo.html" title="Photo Gallery">Photo</a>
+      <a href="/contact.html" title="Contact Us">Contact</a>
     </footer>
   </body>
 </html>
